@@ -1,0 +1,49 @@
+GtkWidget
+GtkListStore
+GtkTreeIter
+GtkMessageType
+GdkEventKey
+gpointer
+GtkBuilder
+GtkEntryCompletion
+gtk_init
+gtk_builder_new
+guint gtk_builder_add_from_file(GtkBuilder *builder, const gchar *filename, GError **eror); Phân tích 1 file chứa GtkBuilder và hợp nhất với builder hiện tại. Lỗi trả về 0 và error được gán với GError.
+GTK_WIDGET
+GObject* gtk_builder_get_object(GtkBuilder *builder, const gchar *name); Lấy object có tên là name từ builder trả về object có tên là name or NULL.
+void gtk_builder_coconnect_signals(Gtkbuilder *builder, gpointer user_data); 
+gtk_entry_completion_new
+gtk_entry_completion_set_text_column
+gtk_list_store_new
+gtk_entry_completion_set_model
+gtk_entry_set_completion
+g_signal_connect
+G_CALLBACK
+void g_object_unref (gpointer object); bộ nhớ object được giải phóng
+gtk_widget_show
+gtk_main
+GtkTextBuffer
+gtk_text_view_get_buffer
+GTK_TEXT_VIEW
+gtk_text_buffer_new
+gtk_text_buffer_set_text
+gtk_text_view_set_buffer
+GtkTextIter
+gtk_text_buffer_get_start_iter
+gtk_text_buffer_get_end_iter
+gtk_text_buffer_get_text
+gtk_entry_get_text
+GTK_ENTRY
+set_mean_textview_text
+GDK_KEY_BackSpace
+GDK_KEY_Tab
+gtk_text_buffer_get_start_iter
+gtk_text_buffer_get_end_iter
+GDK_KEY_KP_Enter
+gtk_entry_set_text
+gtk_message_dialog_new GTK_DIALOG_DESTROY_WITH_PARENT GTK_BUTTONS_OK
+gtk_message_dialog_format_secondary_text
+GTK_MESSAGE_DIALOG
+gtk_dialog_run
+GTK_DIALOG
+gtk_widget_destroy
